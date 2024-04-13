@@ -9,7 +9,7 @@ export class AppComponent {
   accounts = [];
 
   constructor() {
-    for (let i = 0; i < 500; i++) {
+    for (let i = 0; i < 4; i++) {
       this.accounts.push(i);
     }
   }
